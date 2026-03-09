@@ -260,7 +260,14 @@ export default function App() {
           </div>
         )}
       </div>
-      <style>{`* { box-sizing: border-box; }`}</style>
+      <style>{`
+        * { box-sizing: border-box; }
+        html, body {
+          margin: 0;
+          padding: 0;
+          background: #080812;
+        }
+      `}</style>
     </div>
   );
 }
